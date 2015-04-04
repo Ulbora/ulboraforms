@@ -1,0 +1,40 @@
+{
+    "name": "UlboraForms",
+    "description": "Ulbora form processing system.",
+    "version": "0.0.1",
+    "main": "./server.js",
+    "author": {
+        "name": "ken williamson",
+        "email": "kenulborapublic@gmail.com",
+        "url": "http://www.ulboralabs.com/"
+    },
+    "keywords": [],
+    "licenses": {
+        "type": "GPLv3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Ulbora/ulboraforms.git"
+    },
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "body-parser": "^1.5.2",
+        "errorhandler": "^1.1.1",
+        "express": "^4.8.0",
+        "morgan": "^1.2.2",
+        "basic-auth": "*",
+        "multer": "*",        
+        "mongoose": "*",
+        "atob": "*",
+        "btoa": "*",
+        "node-rest-client": "*",
+        "nodemailer": "*"
+
+    },
+    "bugs": {
+        "url": "http://github.com/YOUR_LOGIN/UlboraForms/issues"
+    }
+}
