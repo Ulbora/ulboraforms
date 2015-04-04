@@ -50,7 +50,6 @@ exports.sendMail = function (reqBody, callback) {
 };
 
 
-
 createTransport = function (callback) {
     var tpOpt = {
         host: "mail.somedomain.com", // hostname
